@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>OSF Project</title>
 </head>
 
@@ -106,9 +106,11 @@
 
     <!--Scripts-->
 
-    <script src="bootstrap.bundle.min.js"></script>
-    <script src="fontsawesome.js"></script>
-    <script src="main.js"></script>
+    <script src="assets/bootstrap/jquery-3.6.0.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/bootstrap/popper.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/fontsawesome/fontsawesome.js"></script>
 </body>
 
 </html>
