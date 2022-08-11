@@ -1,3 +1,16 @@
+.navbar .megamenu {
+    padding: 1rem;
+    border-radius: 0px;
+    border: 0px;
+    background-color: #262a32;
+    color: white !important;
+}
+
+.imageosf{
+    max-width: 271px;
+    max-height: 276px;
+}
+
 .contproduct {
     margin-top: 125px;
     margin-bottom: 62px;
@@ -31,6 +44,16 @@ label {
     color: greenyellow;
     border-color: greenyellow;
     border-radius: 15px;
+}
+
+.badge-green {
+    max-width: 200px;
+    background-color: white;
+    color: greenyellow;
+}
+
+.badge {
+    box-shadow: 0 0 0 .2rem greenyellow;
 }
 
 .feat {
@@ -148,27 +171,106 @@ input:disabled {
 
 a {
     color: #84bc22;
+    text-decoration: none;
 }
 
-.decorated{
+.decorated {
     overflow: hidden;
     text-align: center;
 }
-.decorated > span{
-   position: relative;
-   display: inline-block;
+
+.decorated>span {
+    position: relative;
+    display: inline-block;
 }
-.decorated > span:before, .decorated > span:after{
-   content: '';
-   position: absolute;
-   top: 50%;
-   border-bottom: 2px solid #e5e2df;;
-   width: 591px; /* half of limiter*/
-   margin: 0 20px;
+
+.decorated>span:before,
+.decorated>span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid #e5e2df;
+    ;
+    width: 591px;
+    /* half of limiter*/
+    margin: 0 20px;
 }
-.decorated > span:before{
-   right: 100%;
+
+.decorated>span:before {
+    right: 100%;
 }
-.decorated > span:after{
-   left: 100%;
+
+.decorated>span:after {
+    left: 100%;
+}
+
+.nav-item:hover{
+    background-color: #262a32;
+    border-bottom: 15px limegreen;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-nav{
+    max-height: 100%;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (min-width: 768px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+}
+
+@media(max-width: 767px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+    
+    .fixed-md-bottom{
+        position: fixed;
+        bottom: 0;
+    }
+
+    .fixed-md-bottom li{
+        display: inline-block;
+        margin: auto;
+        color: #909497;
+    }
+
+    .navbar-nav{
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        min-width: 100%;
+        background-color: #262a33;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        width: 62px;
+    }
 }
