@@ -12,62 +12,7 @@
 
 <body class="bg-light">
     <!-- topbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-        <div class="container d-flex justify-content-lg-around">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand mx-auto w-25 text-lg-start text-center" href="#">Navbar</a>
-            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-between" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include 'header.php';?>
 
     <div class="container contproduct p-0">
 
@@ -79,7 +24,7 @@
             </ol>
         </nav>
 
-        <h1 class="text-center my-5">Ruffle Front V-Neck Cardigan</h1>
+        <h1 class="decorated my-5"><span>Ruffle Front V-Neck Cardigan</span></h1>
 
         <div class="container-fluid filter bg-white">
             <div class="row pb-4">
@@ -259,137 +204,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-white text-muted">
-
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start py-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <!-- Content -->
-                        <div class="text-left pb-4">
-                            © 2021 Copyright: <br>
-                            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-                        </div>
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            </i>Company name
-                        </h6>
-                        <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">contact@osf-global.com</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">+1 (888) 548-4344</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Products
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Angular</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">React</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Vue</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Laravel</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl mx-auto mt-5 mb-4">
-                        <!-- Links -->
-                        <p>
-                            <a href="#!" class="text-reset">Pricing</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Settings</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Orders</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl mx-auto mt-5 mb-4">
-                        <!-- Links -->
-                        <p>
-                            <a href="#!" class="text-reset">Pricing</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Settings</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Orders</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Products
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Pricing</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Settings</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Orders</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-md-0 mb-4">
-                        <!-- Links -->
-
-                        <div class="d-flex justify-content-end">
-                            <a href="" class="mx-auto text-reset">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="" class="mx-auto text-reset">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="" class="mx-auto text-reset">
-                                <i class="fab fa-google"></i>
-                            </a>
-                            <a href="" class="mx-auto text-reset">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <!-- Copyright -->
-    </footer>
+    <?php include 'footer.php';?>
     <!-- Footer -->
 
     <!-- bottombar -->

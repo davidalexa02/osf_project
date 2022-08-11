@@ -150,31 +150,25 @@ a {
     color: #84bc22;
 }
 
-h1 {
-    position: relative;
-    font-size: 30px;
-    z-index: 1;
+.decorated{
     overflow: hidden;
     text-align: center;
 }
-
-h1:before,
-h1:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 47%;
-    height: 1px;
-    content: '\a0';
-    background-color: #e5e2df;
+.decorated > span{
+   position: relative;
+   display: inline-block;
 }
-
-h1:before {
-    margin-left: -50%;
-    text-align: right;
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid #e5e2df;;
+   width: 591px; /* half of limiter*/
+   margin: 0 20px;
 }
-
-h1:after {
-    right: 6%;
-
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
 }
