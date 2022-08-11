@@ -25,6 +25,14 @@ label {
     border-radius: 15px;
 }
 
+.btn-outline-green {
+    max-width: 200px;
+    background-color: transparent;
+    color: greenyellow;
+    border-color: greenyellow;
+    border-radius: 15px;
+}
+
 .feat {
     background-color: #262a32;
 }
@@ -132,4 +140,41 @@ input.count::-webkit-inner-spin-button {
 
 input:disabled {
     background-color: white;
+}
+
+.ms-n5 {
+    margin-left: -40px;
+}
+
+a {
+    color: #84bc22;
+}
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1:before,
+h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 47%;
+    height: 1px;
+    content: '\a0';
+    background-color: #e5e2df;
+}
+
+h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+h1:after {
+    right: 6%;
+
 }
