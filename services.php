@@ -283,7 +283,7 @@
         </div>
     </div>
 
-    <div class="container-fluid feat p-lg-5">
+    <div class="container-fluid feat px-lg-5 py-5">
 
         <h1 class="text-center text-white">Featured Products</h1>
 

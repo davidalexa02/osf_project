@@ -1,5 +1,5 @@
 <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white py-0">
-    <div class="container d-flex justify-content-md-around">
+    <div class="container d-flex justify-content-md-around px-0">
         <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
             <div id="navbar-close" class="hidden">
@@ -8,14 +8,14 @@
         </button>
         <a class="navbar-brand mx-auto text-md-start text-center overflow-hidden" href="#"><img src="img/osfLogo.png" alt=""></a>
         <div class="collapse navbar-collapse d-md-flex justify-content-md-between mh-100" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item dropdown has-megamenu">
+            <ul class="navbar-nav mx-auto mw-100">
+                <li class="nav-item dropdown has-megamenu ms-md-0 ms-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         SERVICES
                     </a>
                     <div class="dropdown-menu megamenu" aria-labelledby="navbarDropdownMenuLink">
                         <!-- Section: Links  -->
-                        <section class="">
+                        <section class="scroll">
                             <div class="container text-center text-md-start py-5">
                                 <!-- Grid row -->
                                 <div class="row mt-3">
@@ -179,7 +179,7 @@
                 <li class="nav-item ms-2">
                     <a class="nav-link" href="#">CONTACT US</a>
                 </li>
-                <li class="nav-item dropdown ms-3">
+                <li class="nav-item dropdown ms-md-3 ms-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         EN
                     </a>
@@ -189,7 +189,7 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown ms-3">
+                <li class="nav-item dropdown ms-md-3 ms-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         $ US
                     </a>
@@ -204,7 +204,7 @@
 
         <ul class="navbar-nav fixed-md-bottom">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="img/searchIcon.png" alt=""></a>
+                <a class="nav-link" aria-current="page" href="#"><img src="img/searchIcon.png" alt=""></a>
             </li>
             <li class="nav-item ms-2">
                 <a class="nav-link" href="#"><img src="img/profileIcon.png" alt="">

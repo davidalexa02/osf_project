@@ -6,7 +6,7 @@
             <!-- Grid row -->
             <div class="row mt-3">
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div class="col-md-3 col-lg col-xl-3 mx-auto mb-4">
                     <!-- Content -->
                     <div class="text-left pb-4">
                         © 2021 Copyright: <br>
@@ -29,7 +29,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl mx-auto mb-4">
+                <div class="col-md col-lg col-xl mx-auto mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">
                         Categoriest
@@ -53,7 +53,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl mx-auto mt-5 mb-4">
+                <div class="col-md col-lg col-xl mx-auto mt-5 mb-4">
                     <!-- Links -->
                     <p>
                         <a href="#!" class="text-reset">Home</a>
@@ -80,7 +80,7 @@
                         <a href="#!" class="text-reset">Music</a>
                     </p>
                 </div>
-                <div class="col-md-3 col-lg-2 col-xl mx-auto mt-5 mb-4">
+                <div class="col-md col-lg col-xl mx-auto mt-5 mb-4">
                     <!-- Links -->
                     <p>
                         <a href="#!" class="text-reset">Sport</a>
@@ -96,7 +96,7 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-md-3 col-lg-2 col-xl mx-auto mb-4">
+                <div class="col-md col-lg col-xl mx-auto mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">
                         About
@@ -117,7 +117,7 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-md-0 mb-4">
+                <div class="col-md col-lg col-xl-2 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
 
                     <div class="d-flex justify-content-end">
