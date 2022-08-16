@@ -696,7 +696,7 @@ progress {
     .container,
     .container-md,
     .container-sm {
-        max-width: 720px
+        max-width: 873px
     }
 }
 
@@ -2522,7 +2522,7 @@ textarea.form-control-lg {
     background-position: right .75rem center;
     background-size: 16px 12px;
     border: 1px solid #ced4da;
-    border-radius: .375rem;
+    border-radius: 1.5rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     -webkit-appearance: none;
     -moz-appearance: none;

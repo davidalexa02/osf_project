@@ -27,18 +27,18 @@
         <div class="container-fluid filter bg-white">
             <div class="row py-4">
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="text-center">Ooops!</h1>
+                    <h1 class="text-center ops">Oops!</h1>
                 </div>
-                <div class="col-lg-7 pb-4">
-                    <h4>Sorry, this page could not be found!</h4>
-                    <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                        parturient montes, nascetur ridiculus mus.
+                <div class="col-lg-6 pb-4">
+                    <h4 class="fw-bold">Sorry, this page could not be found!</h4>
+                    <p class="mt-3 mb-5">Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                        parturient montes, nascetur ridiculus mus. <br><br>
 
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                         Aenean massa.
                     </p>
-                    <a href="homepage.html" class="text-muted py-4">Go back to Homepage</a>
-                    <h4 class="pt-4 pb-2">Search our site</h4>
+                    <a href="homepage.html">Go back to Homepage</a>
+                    <h4 class="mt-5 pb-2 fw-bold">Search our site</h4>
                     <div class="input-group">
                         <input class="form-control border-end-0 border rounded-pill" type="search" placeholder="SEARCH" id="example-search-input">
                         <span class="input-group-append">

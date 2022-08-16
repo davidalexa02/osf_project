@@ -20,10 +20,10 @@
                         5600, Blvd. des Galeries, Bur 530 Québec, Québec G2K 2H6
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">contact@osf-global.com</a>
+                        <a href="error.php" class="text-reset">contact@osf-global.com</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">+1 (888) 548-4344</a>
+                        <a href="error.php" class="text-reset">+1 (888) 548-4344</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -35,19 +35,19 @@
                         Categoriest
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Alcohol</a>
+                        <a href="error.php" class="text-reset">Alcohol</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Art</a>
+                        <a href="error.php" class="text-reset">Art</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Books</a>
+                        <a href="error.php" class="text-reset">Books</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Drink</a>
+                        <a href="error.php" class="text-reset">Drink</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Electronics</a>
+                        <a href="error.php" class="text-reset">Electronics</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -56,43 +56,43 @@
                 <div class="col-md col-lg col-xl mx-auto mt-5 mb-4">
                     <!-- Links -->
                     <p>
-                        <a href="#!" class="text-reset">Home</a>
+                        <a href="error.php" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Jewelry</a>
+                        <a href="error.php" class="text-reset">Jewelry</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Kids & Baby</a>
+                        <a href="error.php" class="text-reset">Kids & Baby</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Men's Fashion</a>
+                        <a href="error.php" class="text-reset">Men's Fashion</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Mobile</a>
+                        <a href="error.php" class="text-reset">Mobile</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Motorcycles</a>
+                        <a href="error.php" class="text-reset">Motorcycles</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Movies</a>
+                        <a href="error.php" class="text-reset">Movies</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Music</a>
+                        <a href="error.php" class="text-reset">Music</a>
                     </p>
                 </div>
                 <div class="col-md col-lg col-xl mx-auto mt-5 mb-4">
                     <!-- Links -->
                     <p>
-                        <a href="#!" class="text-reset">Sport</a>
+                        <a href="error.php" class="text-reset">Sport</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Toys</a>
+                        <a href="error.php" class="text-reset">Toys</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Travel</a>
+                        <a href="error.php" class="text-reset">Travel</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Women's Fashion
+                        <a href="error.php" class="text-reset">Women's Fashion
                         </a>
                     </p>
                 </div>
@@ -102,16 +102,16 @@
                         About
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">About us</a>
+                        <a href="error.php" class="text-reset">About us</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Delivery</a>
+                        <a href="error.php" class="text-reset">Delivery</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Testimonials</a>
+                        <a href="error.php" class="text-reset">Testimonials</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Contact</a>
+                        <a href="error.php" class="text-reset">Contact</a>
                     </p>
                 </div>
                 <!-- Grid column -->

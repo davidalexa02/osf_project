@@ -56,13 +56,18 @@ label {
     box-shadow: 0 0 0 .2rem greenyellow;
 }
 
+.scroll {
+    overflow-y: scroll;
+}
+
 .feat {
     background-color: #262a32;
 }
 
 .centered {
+    /* min-width: 401px; */
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -135,6 +140,70 @@ div.qty {
     background-clip: padding-box;
 }
 
+.white {
+    background-color: #ffffff;
+}
+
+.blue {
+    background-color: #00ffff;
+}
+
+.darkblue {
+    background-color: #00008b;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.orange {
+    background-color: #ff4500;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.gray {
+    background-color: #808080;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #2f3640;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+
+    transition: 400ms;
+}
+
+.cookie-container.active {
+    bottom: 0;
+}
+
+.cookie-container a {
+    color: #f5f6fa;
+}
+
+.cookie-btn {
+    background: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .minus:hover {
     background-color: #717fe0 !important;
 }
@@ -179,9 +248,54 @@ a {
     text-align: center;
 }
 
+#middle {
+    position: relative;
+}
+
+#middle:before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 2px;
+    background: #ffffff;
+    left: 85px;
+    top: 50%;
+    position: absolute;
+}
+
+#middle:after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 2px;
+    background: #ffffff;
+    right: 85px;
+    top: 50%;
+    position: absolute;
+}
+
+.desktopBox {
+    display: none;
+}
+
+.arrows {
+    max-width: 720px;
+}
+
+#next,
+#prev {
+    background-color: #2D343A;
+}
+
 .decorated>span {
     position: relative;
     display: inline-block;
+}
+
+.ops{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: limegreen;
 }
 
 .decorated>span:before,
@@ -189,7 +303,7 @@ a {
     content: '';
     position: absolute;
     top: 50%;
-    border-bottom: 2px solid #e5e2df;
+    border-bottom: 2px solid #ffffff;
     ;
     width: 591px;
     /* half of limiter*/
@@ -215,6 +329,7 @@ a {
 
 .navbar-nav {
     max-height: 100%;
+    max-width: 100%;
 }
 
 .navbar-toggler {
@@ -226,9 +341,12 @@ a {
 }
 
 @media all and (min-width: 768px) {
-
     .navbar .has-megamenu {
         position: static !important;
+    }
+
+    .badge{
+        background-color: white;
     }
 
     .navbar .megamenu {
@@ -242,6 +360,19 @@ a {
 
 @media(max-width: 767px) {
 
+    .ops{
+        margin-bottom: 35px;
+    }
+
+    .badge{
+        background-color: #262a33;
+        top: 5px;
+    }
+
+    .right-side{
+        display: none;
+    }
+
     .navbar.fixed-top .navbar-collapse,
     .navbar.sticky-top .navbar-collapse {
         overflow-y: auto;
@@ -249,40 +380,36 @@ a {
         margin-top: 10px;
     }
 
-    .fixed-md-bottom {
-        position: fixed;
-        bottom: 0;
-    }
-
-    .fixed-md-bottom li {
-        display: inline-block;
-        margin: auto;
-    }
-
     .nav-link {
         color: white;
     }
 
+    .mobileBox {
+        display: none;
+    }
+
     .navbar-nav.fixed-md-bottom {
-        left: 0;
-        right: 0;
-        flex-direction: row;
         min-width: 100%;
+        left: 0px !important;
         min-height: 50px;
+        justify-content: space-around;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0;
     }
 
     .navbar-nav {
         background-color: #262a33;
-    }
-
-    .navbar .container {
-        max-width: 100%;
     }
 }
 
 @media screen and (max-width:767px) {
     .navbar-brand {
         width: 62px;
+    }
+
+    .featlp {
+        display: none;
     }
 }
 

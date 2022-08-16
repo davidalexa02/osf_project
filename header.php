@@ -206,18 +206,18 @@
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#"><img src="img/searchIcon.png" alt=""></a>
             </li>
-            <li class="nav-item ms-2">
-                <a class="nav-link" href="#"><img src="img/profileIcon.png" alt="">
+            <li class="nav-item ms-md-2">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm" ><img src="img/profileIcon.png" alt="">
                 </a>
             </li>
-            <li class="nav-item ms-2">
-                <a class="nav-link" href="#"><span class="position-relative"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-green">
+            <li class="nav-item ms-md-2">
+                <a class="nav-link" href="#"><span class="position-relative"><span class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
                             1
                             <span class="visually-hidden">unread messages</span>
                         </span><img src="img/likedIcon.png" alt=""></span></a>
             </li>
-            <li class="nav-item ms-2">
-                <a class="nav-link" href="#"><span class="position-relative"><img src="img/bagIcon.png" alt=""><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-green">
+            <li class="nav-item ms-md-2">
+                <a class="nav-link" href="#"><span class="position-relative"><img src="img/bagIcon.png" alt=""><span class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
                             2
                             <span class="visually-hidden">unread messages</span>
                         </span></span></a>
@@ -225,3 +225,40 @@
         </ul>
     </div>
 </nav>
+
+<!-- Modal Form data-bs-toggle="modal" data-bs-target="#ModalForm"  -->
+<div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Login Form -->
+            <form action="">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Login Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="Username">Username<span class="text-danger">*</span></label>
+                        <input type="text" name="username" class="form-control" id="Username" placeholder="Enter Username">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Password">Password<span class="text-danger">*</span></label>
+                        <input type="password" name="password" class="form-control" id="Password" placeholder="Enter Password">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="remember" required>
+                        <label class="form-check-label" for="remember">Remember Me</label>
+                        <a href="#" class="float-end">Forgot Password</a>
+                    </div>
+                </div>
+                <div class="modal-footer pt-4">
+                    <button type="button" class="btn btn-success mx-auto w-100">Login</button>
+                </div>
+                <p class="text-center">Not yet account, <a href="#">Signup</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- cookie   -->
