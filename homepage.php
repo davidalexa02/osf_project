@@ -25,30 +25,32 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 5"></button>
                         </div>
                         <div class="carousel-inner filter">
                             <div class="carousel-item active">
                                 <img src="img/bagsHeader.png" class="d-block w-100" alt="...">
-                                <div class="lefty text-start">
-                                    <h1 class="text-white">Featured Products</h1>
-                                    <p class="my-lg-3 text-white">12,209 results in apparel</p>
-                                    <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook-f"></i>FOLLOW</button>
+                                <div class="lefty mx-auto text-md-start">
+                                    <h1 class="text-white mb-md-5 mb-4 text-start">Control and manage any device with cloud solutions</h1>
+                                    <p class="my-lg-3 text-white text-start">Improve business performance and the user experience with the right mix of IoT technology and processes</p>
+                                    <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-start">View More</button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="img/slider2.png" class="d-block w-100" alt="...">
-                                <div class="lefty text-start">
-                                    <h1 class="text-white">Featured Products</h1>
-                                    <p class="my-lg-3 text-white">12,209 results in apparel</p>
-                                    <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook-f"></i>FOLLOW</button>
+                                <div class="centy text-center">
+                                    <h1 class="text-white mb-md-5 mb-4">Control and manage any device with cloud solutions</h1>
+                                    <p class="my-lg-3 text-white">Improve business performance and the user experience with the right mix of IoT technology and processes</p>
+                                    <button type="button" class="btn btn-outline-light text-uppercase px-4">View More</button>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="img/slider3.png" class="d-block w-100" alt="...">
-                                <div class="lefty text-start">
-                                    <h1 class="text-white">Featured Products</h1>
-                                    <p class="my-lg-3 text-white">12,209 results in apparel</p>
-                                    <button type="button" class="btn btn-outline-primary"><i class="fab fa-facebook-f"></i>FOLLOW</button>
+                                <div class="righty text-md-end">
+                                    <h1 class="text-white mb-md-5 mb-4 text-end">Control and manage any device with cloud solutions</h1>
+                                    <p class="my-lg-3 text-white text-end">Improve business performance and the user experience with the right mix of IoT technology and processes</p>
+                                    <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-end">View More</button>
                                 </div>
                             </div>
                         </div>
@@ -74,9 +76,9 @@
         </div>
     </div>
 
-    <div class="container mw-100 feat px-md-5 px-3 py-2">
+    <div class="container mw-100 feat px-md-5 px-3 py-md-5 py-3">
 
-        <h1 class="otherdecorated"><span>Popular Items</span></h1>
+        <h4 class="otherdecorated"><span>Popular Items</span></h4>
 
         <div class="container mx-auto p-0">
             <div class="row my-4">
