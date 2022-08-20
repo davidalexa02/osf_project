@@ -19,7 +19,7 @@
 
         <div class="container-fluid text-center">
             <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-md-9 px-3 mx-md-0">
                     <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="true">
                         <div class="carousel-indicators align-items-center">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 right-side">
+                <div class="col-md-3 right-side">
                     <div class="container position-relative">
                         <img class="mw-100" src="img/summerSales.png" alt=""></a>
                         <div class="centered">
@@ -62,7 +62,7 @@
                             <p class="text-center my-lg-3 text-white">SUMMER SALES</p>
                         </div>
                     </div>
-                    <div class="mt-xl-3">
+                    <div class="mt-md-3">
                         <h5>Follow us on Facebook</h5>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit</p>
                         <div class="align-self-end">
@@ -74,191 +74,93 @@
         </div>
     </div>
 
-    <div class="container mw-100 feat px-md-5 py-2">
+    <div class="container mw-100 feat px-md-5 px-3 py-2">
 
-        <h1 class="text-center text-white">Popular Items</h1>
+        <h1 class="otherdecorated"><span>Popular Items</span></h1>
 
         <div class="container mx-auto p-0">
             <div class="row my-4">
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-overlay">
+                            <button type="button" class="btn btn-primary btn-lg btn-floating">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg btn-floating">
+                                <i class="fab fa-facebook-f"></i>
+                            </button>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row my-4">
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-4">
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -387,7 +289,7 @@
     <div class="container mw-100 service py-5">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -401,13 +303,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <div class="container">
                         <div class="row">
-                            <div class="col">
+                            <div class="col order-md-1 order-2">
                                 <img src="img/service-method.png" alt="">
                             </div>
-                            <div class="col">
+                            <div class="col order-md-2 order-1">
                                 <h6>METHOD</h6>
                                 <p>A standardized methodology designed to deliver measurable business results and
                                     predictable costs</p>
@@ -415,7 +317,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -450,7 +352,7 @@
         </button>
     </div>
     <!--Scripts-->
-
+    <script src="assets/js/index.js"></script>
     <script src="assets/bootstrap/jquery-3.6.0.js"></script>
     <script src="assets/bootstrap/popper.min.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>

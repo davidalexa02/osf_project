@@ -10,41 +10,20 @@
         <div class="collapse navbar-collapse d-md-flex justify-content-md-between mh-100" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto mw-100">
                 <li class="nav-item dropdown has-megamenu ms-md-0 ms-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         SERVICES
                     </a>
-                    <div class="dropdown-menu megamenu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu megamenu scroll" aria-labelledby="navbarDropdownMenuLink">
                         <!-- Section: Links  -->
-                        <section class="scroll">
-                            <div class="container text-center text-md-start py-5">
-                                <!-- Grid row -->
-                                <div class="row mt-3">
-                                    <!-- Grid column -->
-                                    <!-- <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                                        <div class="text-left pb-4">
-                                            © 2021 Copyright: <br>
-                                            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-                                        </div>
-                                        <h6 class="text-uppercase fw-bold mb-4">
-                                            </i>Company name
-                                        </h6>
-                                        <p>
-                                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                            dolor sit amet, consectetur adipisicing elit.
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">contact@osf-global.com</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">+1 (888) 548-4344</a>
-                                        </p>
-                                    </div> -->
-                                    <!-- Grid column -->
+                        <div class="container text-md-start py-md-5">
+                            <!-- Grid row -->
+                            <div class="row mt-md-3">
 
-                                    <!-- Grid column -->
-                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
-                                        <!-- Links -->
-                                        <h6 class="text-uppercase fw-bold mb-4">Product Categories</h6>
+                                <!-- Grid column -->
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+                                    <!-- Links -->
+                                    <h6 id="show" class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenu1()">Product Categories</h6>
+                                    <div class="submenu1 none">
                                         <p>
                                             <a href="#!" class="text-reset">Accesories</a>
                                         </p>
@@ -70,116 +49,120 @@
                                             <a href="#!" class="text-reset">Food</a>
                                         </p>
                                     </div>
-                                    <!-- Grid column -->
-
-                                    <!-- Grid column -->
-                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2">
-                                        <!-- Links -->
-                                        <p>
-                                            <a href="#!" class="text-reset">Accesories</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Alcohol</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Art</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Books</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Drink</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Electronics</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Flowers & Plants</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Food</a>
-                                        </p>
-                                    </div>
-                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2">
-                                        <!-- Links -->
-                                        <p>
-                                            <a href="#!" class="text-reset">Accesories</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Alcohol</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Art</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Books</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Drink</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Electronics</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Flowers & Plants</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Food</a>
-                                        </p>
-                                    </div>
-                                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2">
-                                        <!-- Links -->
-                                        <p>
-                                            <a href="#!" class="text-reset">Accesories</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Alcohol</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Art</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Books</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Drink</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Electronics</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Flowers & Plants</a>
-                                        </p>
-                                        <p>
-                                            <a href="#!" class="text-reset">Food</a>
-                                        </p>
-                                    </div>
-                                    <!-- Grid column -->
-
-                                    <!-- Grid column -->
-                                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mt-5 mb-4">
-                                        <!-- Links -->
-
-                                        <img class="imageosf" src="img/nav-girl.png" alt="">
-                                    </div>
-                                    <!-- Grid column -->
                                 </div>
-                                <!-- Grid row -->
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2 submenu1 none">
+                                    <!-- Links -->
+                                    <p>
+                                        <a href="#!" class="text-reset">Gadgets</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Garden</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Grocery</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Home</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Jewelry</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Kids & Baby</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Men's Fashion</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Mobile</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2 submenu1 none">
+                                    <!-- Links -->
+                                    <p>
+                                        <a href="#!" class="text-reset">Motorcycles</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Movies</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Music</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Office</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Pots</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Romantic</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Sport</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Toys</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-md-5 mb-2">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenu2()">Sale</h6>
+
+                                    <div class="submenu2 none">
+                                        <p>
+                                            <a href="#!" class="text-reset">Accesories</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Alcohol</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Art</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Books</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Drink</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Electronics</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Flowers & Plants</a>
+                                        </p>
+                                        <p>
+                                            <a href="#!" class="text-reset">Food</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mt-5 mb-4 none">
+                                    <!-- Links -->
+
+                                    <img class="imageosf" src="img/nav-girl.png" alt="">
+                                </div>
+                                <!-- Grid column -->
                             </div>
-                        </section>
+                            <!-- Grid row -->
+                        </div>
                         <!-- Section: Links  -->
                     </div>
                 </li>
                 <li class="nav-item ms-2">
-                    <a class="nav-link" aria-current="page" href="#">COMPANY</a>
+                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center" aria-current="page" href="#">COMPANY</a>
                 </li>
                 <li class="nav-item ms-2">
-                    <a class="nav-link" href="#">LIBRARY</a>
+                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center" href="#">LIBRARY</a>
                 </li>
                 <li class="nav-item ms-2">
-                    <a class="nav-link" href="#">CONTACT US</a>
+                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center" href="#">CONTACT US</a>
                 </li>
-                <li class="nav-item dropdown ms-md-3 ms-2">
+                <li class="none nav-item dropdown ms-md-3 ms-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         EN
                     </a>
@@ -189,7 +172,7 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown ms-md-3 ms-2">
+                <li class="none nav-item dropdown ms-md-3 ms-2">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         $ US
                     </a>
@@ -199,6 +182,10 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
+
+                <div class="d-flex justify-content-center">
+                    <img class="notyet imageosf" src="img/nav-girl.png" alt="">
+                </div>
             </ul>
         </div>
 
@@ -207,7 +194,7 @@
                 <a class="nav-link" aria-current="page" href="#"><img src="img/searchIcon.png" alt=""></a>
             </li>
             <li class="nav-item ms-md-2">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm" ><img src="img/profileIcon.png" alt="">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#ModalForm"><img src="img/profileIcon.png" alt="">
                 </a>
             </li>
             <li class="nav-item ms-md-2">
