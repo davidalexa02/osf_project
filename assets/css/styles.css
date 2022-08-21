@@ -28,7 +28,7 @@ label {
     max-width: 200px;
     background-color: greenyellow;
     color: aliceblue;
-    border-radius: 15px;
+    border-radius: 60px;
 }
 
 .btn-outline-green {
@@ -163,7 +163,6 @@ div.qty {
     color: #f5f6fa;
     padding: 0 32px;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
     transition: 400ms;
 }
 
@@ -359,6 +358,28 @@ a {
     border-radius: 50px;
 }
 
+.mb-3 .form-control {
+    width: 95%;
+    border-radius: 60px;
+}
+
+.modal-content {
+    width: 400px;
+}
+
+.p-viewer {
+    float: right;
+    margin-top: -31px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.mb-3 i {
+    cursor: pointer;
+}
+
 .nav-item:hover {
     background-color: #262a32;
     border-bottom: 15px limegreen;
@@ -449,7 +470,9 @@ a {
         transform: translate(-25%, -50%);
     }
 
-    .lefty .btn,.centy .btn,.righty .btn{
+    .lefty .btn,
+    .centy .btn,
+    .righty .btn {
         text-align: center;
     }
 

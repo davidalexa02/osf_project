@@ -216,33 +216,30 @@
 <!-- Modal Form data-bs-toggle="modal" data-bs-target="#ModalForm"  -->
 <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
+        <div class="modal-content mx-auto">
             <!-- Login Form -->
             <form action="">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal Login Form</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
                 <div class="modal-body">
+                    <div class="my-3">
+                        <h3 class="modal-title text-center fw-bold">Sign In</h3>
+                    </div>
                     <div class="mb-3">
-                        <label for="Username">Username<span class="text-danger">*</span></label>
-                        <input type="text" name="username" class="form-control" id="Username" placeholder="Enter Username">
+                        <label class="ms-3" for="Username">Email</label>
+                        <input type="text" name="username" class="form-control mx-auto" id="Username" placeholder="Enter Username" required>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="Password">Password<span class="text-danger">*</span></label>
-                        <input type="password" name="password" class="form-control" id="Password" placeholder="Enter Password">
+                    <div class="mb-3 position-relative">
+                        <p><label class="ms-3" for="Password">Lato</label>
+                            <a href="#" class="float-end">Forgot Password</a>
+                        </p>
+                        <input type="password" name="password" class="form-control mx-auto" required="" id="password" oninvalid="this.setCustomValidity('At least 6 characters length, contain 1 numeric, 1 uppercase letter, 1 special character')" oninput="this.setCustomValidity('')" placeholder="Enter Password" />
+                        <span class="p-viewer"><i class="text-muted fa-solid fa-eye-slash" id="togglePassword"></i></span>
                     </div>
-                    <div class="mb-3">
-                        <input class="form-check-input" type="checkbox" value="" id="remember" required>
-                        <label class="form-check-label" for="remember">Remember Me</label>
-                        <a href="#" class="float-end">Forgot Password</a>
+                    <div class="mb-3 text-center mt-5">
+                        <button type="submit" class="btn btn-green mx-auto w-100 text-uppercase">Login</button>
+                        <p class="text-center my-3"><a href="#">I don't have an account</a></p>
                     </div>
                 </div>
-                <div class="modal-footer pt-4">
-                    <button type="button" class="btn btn-success mx-auto w-100">Login</button>
-                </div>
-                <p class="text-center">Not yet account, <a href="#">Signup</a></p>
             </form>
         </div>
     </div>

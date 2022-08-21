@@ -65,6 +65,8 @@ select.onchange = () => {
       `
 }
 
+
+
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
@@ -77,4 +79,31 @@ setTimeout(() => {
     if (!localStorage.getItem("cookieBannerDisplayed")) {
         cookieContainer.classList.add("active");
     }
-}, 10000);
+}, 1000);
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+const togglePassword = document.querySelector("#togglePassword");
+
+const password = document.querySelector("#password");
+
+togglePassword.addEventListener("click", function (e) {
+
+    // Toggle the type attribute using
+    // getAttribure() method
+    const type = password
+        .getAttribute("type") === "password" ?
+        "text" : "password";
+
+    password.setAttribute("type", type);
+
+    // Toggle the eye and bi-eye icon
+
+    if (this.classList.contains('fa-eye-slash')) {
+        this.classList.remove("fa-eye-slash");
+        this.classList.add("fa-eye");
+    } else {
+        this.classList.remove("fa-eye");
+        this.classList.add("fa-eye-slash");
+    }
+});

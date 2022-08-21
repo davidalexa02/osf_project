@@ -337,10 +337,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <?php include 'footer.php'; ?>
-    <!-- Footer -->
-
 
     <div class="cookie-container">
         <p>
@@ -353,6 +349,10 @@
             Okay
         </button>
     </div>
+
+    <!-- Footer -->
+    <?php include 'footer.php'; ?>
+    <!-- Footer -->
     <!--Scripts-->
     <script src="assets/js/index.js"></script>
     <script src="assets/bootstrap/jquery-3.6.0.js"></script>

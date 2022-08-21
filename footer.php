@@ -9,8 +9,8 @@
                 <div class="col-md-3 col-lg col-xl-3 mx-auto mb-4">
                     <!-- Content -->
                     <div class="text-left pb-4">
-                        © 2021 Copyright: <br>
-                        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                        © Copyright <span id="year"></span><br>
+                        <a class="text-reset" href="">All rights Reserved.</a>
                     </div>
                     <h6 class="text-uppercase fw-bold mb-4 mobdrop" onclick="showMenuF1()">
                         </i>Contact
