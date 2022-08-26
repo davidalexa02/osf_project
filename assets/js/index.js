@@ -1,3 +1,22 @@
+
+
+// scroll to top button
+//Get the button:
+var scrollToTopBtn = document.getElementById("myBtn")
+
+var rootElement = document.documentElement
+
+function scrollToTop {
+    // scroll to top logic
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+    
+}
+
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
 $(document).on('click', '#dropdownmenu', function (e) {
     e.stopPropagation();
 });
@@ -152,20 +171,8 @@ function mobileCarousel(resoluc) {
         mobileCar.classList.remove("carousel");
     }
 }
-var resoluc= window.matchMedia("(max-width: 767px)")
+var resoluc = window.matchMedia("(max-width: 767px)")
 mobileCarousel(resoluc) // Call listener function at run time
 resoluc.addListener(mobileCarousel) // Attach listener function on state changes
 
 
-
-// scroll to top button
-//Get the button:
-mybutton = document.getElementById("myBtn");
-
-window.scrollY(0,0)
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}

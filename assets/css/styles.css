@@ -283,6 +283,12 @@ a {
     max-width: 720px;
 }
 
+.nav-tabs .nav-item button.active, .tab-pane{
+    background-color: #262A33;
+    border: solid 1px #262A33;
+    color: white;
+}
+
 #next,
 #prev {
     background-color: #2D343A;
