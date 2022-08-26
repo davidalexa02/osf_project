@@ -12,7 +12,7 @@
 
 <body class="bg-light">
     <!-- topbar -->
-    <?php include 'header.php';?>
+    <?php include 'header.php'; ?>
 
     <div class="container contproduct p-0">
 
@@ -48,12 +48,12 @@
                         </select>
                     </p>
                     <p>
-                        <div class="qty mt-5">
-                            <span class="minus bg-dark">-</span>
-                            <input type="number" class="count" name="qty" value="1">
-                            <span class="plus bg-dark">+</span>
-                        </div>
-                        <button type="button" class="btn btn-green btn-sm mx-auto ">LOAD MORE</button>
+                    <div class="qty mt-5">
+                        <span class="minus bg-dark">-</span>
+                        <input type="number" class="count" name="qty" value="1">
+                        <span class="plus bg-dark">+</span>
+                    </div>
+                    <button type="button" class="btn btn-green btn-sm mx-auto ">LOAD MORE</button>
                     </p>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                         totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo.
@@ -61,8 +61,7 @@
                     </p>
                     <p>
                         <a href="" class="text-muted me-2">Share</a>
-                        <i class="fab fa-facebook-f"></i><i class="fab fa-google"></i><i class="fab fa-twitter"></i><i
-                            class="fab fa-pinterest"></i>
+                        <i class="fab fa-facebook-f"></i><i class="fab fa-google"></i><i class="fab fa-twitter"></i><i class="fab fa-pinterest"></i>
                     </p>
                 </div>
             </div>
@@ -70,30 +69,20 @@
                 <div class="col">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
-                                aria-selected="true">Home</button>
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
-                                data-bs-target="#contact-tab-pane" type="button" role="tab"
-                                aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
-                            aria-labelledby="home-tab" tabindex="0">...</div>
-                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                            tabindex="0">...</div>
-                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                            tabindex="0">...</div>
-                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
-                            tabindex="0">...</div>
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
                     </div>
                 </div>
             </div>
@@ -102,10 +91,10 @@
         <div class="container mw-100 p-lg-5">
 
             <h1 class="text-center">Popular Items</h1>
-    
+
             <div class="container mx-auto p-0">
                 <div class="row my-4">
-                    <div class="col">
+                    <div class="col-md">
                         <div class="card">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                             <div class="card-body">
@@ -116,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <div class="card">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                             <div class="card-body">
@@ -127,7 +116,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <div class="card">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                             <div class="card-body">
@@ -138,7 +127,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md">
                         <div class="card">
                             <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                             <div class="card-body">
@@ -150,14 +139,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="row my-5 notyet">
+                    <button type="button" onclick="topFunction()" id="myBtn" class="btn btn-green btn-sm mx-auto text-uppercase">Scroll to top</button>
+                </div>
             </div>
-        </div>        
+        </div>
     </div>
 
     <div class="container mw-100 service py-5">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -171,13 +163,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <div class="container">
                         <div class="row">
-                            <div class="col">
+                            <div class="col order-md-1 order-2">
                                 <img src="img/service-method.png" alt="">
                             </div>
-                            <div class="col">
+                            <div class="col order-md-2 order-1">
                                 <h6>METHOD</h6>
                                 <p>A standardized methodology designed to deliver measurable business results and
                                     predictable costs</p>
@@ -185,7 +177,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md">
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -203,8 +195,9 @@
         </div>
     </div>
 
+
     <!-- Footer -->
-    <?php include 'footer.php';?>
+    <?php include 'footer.php'; ?>
     <!-- Footer -->
 
     <!-- bottombar -->
@@ -226,6 +219,7 @@
     <!--Scripts-->
 
     <script src="assets/bootstrap/jquery-3.6.0.js"></script>
+    <script src="assets/js/index.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/bootstrap/popper.min.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>

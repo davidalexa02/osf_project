@@ -65,22 +65,6 @@ select.onchange = () => {
       `
 }
 
-
-
-const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
-
-cookieButton.addEventListener("click", () => {
-    cookieContainer.classList.remove("active");
-    localStorage.setItem("cookieBannerDisplayed", "true");
-});
-
-setTimeout(() => {
-    if (!localStorage.getItem("cookieBannerDisplayed")) {
-        cookieContainer.classList.add("active");
-    }
-}, 1000);
-
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 const togglePassword = document.querySelector("#togglePassword");

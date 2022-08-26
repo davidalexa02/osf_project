@@ -7,13 +7,13 @@
             </div>
         </button>
         <a class="navbar-brand mx-auto text-md-start text-center overflow-hidden" href="#"><img src="img/osfLogo.png" alt=""></a>
-        <div class="collapse navbar-collapse d-md-flex justify-content-md-between mh-100" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto mw-100">
-                <li class="nav-item dropdown has-megamenu ms-md-0 ms-2">
+        <div class="collapse navbar-collapse navbar-scroll d-md-flex justify-content-md-between mh-100" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item azulejo dropdown has-megamenu ms-md-0 ms-2">
                     <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         SERVICES
                     </a>
-                    <div class="dropdown-menu megamenu scroll" aria-labelledby="navbarDropdownMenuLink">
+                    <div id="dropdownmenu" class="dropdown-menu megamenu scroll" aria-labelledby="navbarDropdownMenuLink">
                         <!-- Section: Links  -->
                         <div class="container text-md-start py-md-5">
                             <!-- Grid row -->
@@ -22,8 +22,8 @@
                                 <!-- Grid column -->
                                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
                                     <!-- Links -->
-                                    <h6 id="show" class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenu1()">Product Categories</h6>
-                                    <div class="submenu1 none">
+                                    <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenuH1()">Product Categories</h6>
+                                    <div id="submenuh1" class="none ms-3">
                                         <p>
                                             <a href="#!" class="text-reset">Accesories</a>
                                         </p>
@@ -53,7 +53,7 @@
                                 <!-- Grid column -->
 
                                 <!-- Grid column -->
-                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2 submenu1 none">
+                                <div id="submenuh2" class="col-md-2 col-lg-2 col-xl-2 mx-md-auto ms-3 mt-5 mb-2 none">
                                     <!-- Links -->
                                     <p>
                                         <a href="#!" class="text-reset">Gadgets</a>
@@ -80,7 +80,7 @@
                                         <a href="#!" class="text-reset">Mobile</a>
                                     </p>
                                 </div>
-                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-2 submenu1 none">
+                                <div id="submenuh3" class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 ms-3 mb-2 none">
                                     <!-- Links -->
                                     <p>
                                         <a href="#!" class="text-reset">Motorcycles</a>
@@ -109,9 +109,9 @@
                                 </div>
                                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-md-5 mb-2">
                                     <!-- Links -->
-                                    <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenu2()">Sale</h6>
+                                    <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenuH2()">Sale</h6>
 
-                                    <div class="submenu2 none">
+                                    <div id="submenuh4" class="none ms-3">
                                         <p>
                                             <a href="#!" class="text-reset">Accesories</a>
                                         </p>
@@ -153,13 +153,13 @@
                         <!-- Section: Links  -->
                     </div>
                 </li>
-                <li class="nav-item ms-2">
+                <li class="nav-item azulejo ms-2">
                     <a class="nav-link mobdrop d-flex justify-content-between align-items-center" aria-current="page" href="#">COMPANY</a>
                 </li>
-                <li class="nav-item ms-2">
+                <li class="nav-item azulejo ms-2">
                     <a class="nav-link mobdrop d-flex justify-content-between align-items-center" href="#">LIBRARY</a>
                 </li>
-                <li class="nav-item ms-2">
+                <li class="nav-item azulejo ms-2">
                     <a class="nav-link mobdrop d-flex justify-content-between align-items-center" href="#">CONTACT US</a>
                 </li>
                 <li class="none nav-item dropdown ms-md-3 ms-2">
@@ -199,13 +199,13 @@
             </li>
             <li class="nav-item ms-md-2">
                 <a class="nav-link" href="#"><span class="position-relative"><span class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
-                            1
+                            0
                             <span class="visually-hidden">unread messages</span>
                         </span><img src="img/likedIcon.png" alt=""></span></a>
             </li>
             <li class="nav-item ms-md-2">
                 <a class="nav-link" href="#"><span class="position-relative"><img src="img/bagIcon.png" alt=""><span class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
-                            2
+                            0
                             <span class="visually-hidden">unread messages</span>
                         </span></span></a>
             </li>

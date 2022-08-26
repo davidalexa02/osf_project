@@ -4183,11 +4183,6 @@ fieldset:disabled .btn {
     }
 }
 
-.nav-link:focus,
-.nav-link:hover {
-    color: var(--bs-nav-link-hover-color)
-}
-
 .nav-link.disabled {
     color: var(--bs-nav-link-disabled-color);
     pointer-events: none;
@@ -9998,6 +9993,11 @@ fieldset:disabled .btn {
 @media (min-width:768px) {
     .float-md-start {
         float: left !important
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+        color: var(--bs-nav-link-hover-color)
     }
 
     .float-md-end {

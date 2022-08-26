@@ -76,6 +76,7 @@
         </div>
     </div>
 
+    <!-- desktop popular items -->
     <div class="container mw-100 feat px-md-5 px-3 py-md-5 py-3">
 
         <h4 class="otherdecorated"><span>Popular Items</span></h4>
@@ -157,12 +158,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <div class="col-md-3 d-flex align-items-stretch">
+                    <div class="card text-left text-white w-100">
+                        <img class="card-img" src="img/item8.png" alt="Card image cap">
+                        <div class="card-img-overlay card-overlay-static">
+                            <div class="lefted container ms-lg-3 ms-1 mb-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="card-text">My dragons are misbehaving again. Unbelievable!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="card-text" src="img/thinking.png" alt="">
+                                    </div>
+                                    <div class="col-7">
+                                        <sub class="card-text">5H AGO</sub>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -172,12 +186,16 @@
             </div>
         </div>
     </div>
+    <!-- desktop popular items -->
+
+    <!-- mobile popular items -->
+    <!-- mobile popular items -->
 
     <div class="container mw-100 p-0 position-relative">
         <img class="w-100" src="img/banner.png" alt="Snow">
-        <div class="centered">
-            <h1 class="text-center text-white">Featured Products</h1>
-            <p class="text-center my-lg-3 text-white">12,209 results in apparel</p>
+        <div id="full" class="centered">
+            <h1 class="text-center text-white">Banner OSF Theme</h1>
+            <p class="text-center my-lg-3 text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
         </div>
     </div>
 
@@ -354,8 +372,8 @@
     <?php include 'footer.php'; ?>
     <!-- Footer -->
     <!--Scripts-->
-    <script src="assets/js/index.js"></script>
     <script src="assets/bootstrap/jquery-3.6.0.js"></script>
+    <script src="assets/js/index.js"></script>
     <script src="assets/bootstrap/popper.min.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="assets/fontsawesome/fontsawesome.js"></script>
