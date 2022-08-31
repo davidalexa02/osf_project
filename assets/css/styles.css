@@ -14,6 +14,10 @@
     border-radius: 5px;
 }
 
+.car-mobile{
+    max-height: 320px !important;
+}
+
 .form-select {
     max-width: 298px;
 }
@@ -71,7 +75,7 @@ label {
     transform: translate(-25%, -15%); */
 }
 
-#full{
+#full {
     width: 320px;
 }
 
@@ -95,8 +99,22 @@ label {
     box-shadow: 0 0 0 .2rem rgb(255, 255, 255);
 }
 
-div.qty {
+.carousel-indicators.blackindicators [data-bs-target] {
+    background-color: #45413e;
+}
+
+.carousel-indicators.blackindicators .active{
+    border-radius: 100%;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    border: 0 !important;
+    background-color: transparent !important;
+    box-shadow: 0 0 0 .2rem rgb(122, 121, 121);
+}
+
+.qty {
     text-align: center;
+    max-width: 105px;
 }
 
 .qty .count {
@@ -121,6 +139,26 @@ div.qty {
     font: 30px/1 Arial, sans-serif;
     text-align: center;
     border-radius: 50%;
+}
+
+.text-green {
+    color: limegreen;
+}
+
+#zoomed {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 1, 0.6558998599439776) 100%, rgba(0, 212, 255, 1) 100%);
+    display: none;
+}
+
+#expandedtext{
+    display: none;
+}
+
+#readmore {
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .qty .minus {
@@ -243,6 +281,10 @@ a {
     text-align: center;
 }
 
+.nav-link.tablink {
+    color: gray;
+}
+
 .otherdecorated {
     overflow: hidden;
     color: white;
@@ -283,7 +325,8 @@ a {
     max-width: 720px;
 }
 
-.nav-tabs .nav-item button.active, .tab-pane{
+.nav-tabs .nav-item button.active,
+.tab-pane {
     background-color: #262A33;
     border: solid 1px #262A33;
     color: white;
@@ -300,6 +343,11 @@ a {
 }
 
 .otherdecorated>span {
+    position: relative;
+    display: inline-block;
+}
+
+.graydecorated>span {
     position: relative;
     display: inline-block;
 }
@@ -334,6 +382,25 @@ a {
     margin: 0 20px;
 }
 
+.card-img-top{
+    width: 100%;
+    max-height: 196px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.graydecorated>span:before,
+.graydecorated>span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid rgb(179, 179, 179);
+    ;
+    width: 591px;
+    /* half of limiter*/
+    margin: 0 20px;
+}
+
 .card-overlay {
     position: absolute;
     top: 0;
@@ -347,7 +414,7 @@ a {
     background: rgba(0, 183, 74, 0.78);
 }
 
-.card-overlay-static{
+.card-overlay-static {
     /* position: absolute;
     top: 0;
     bottom: 0;
@@ -358,10 +425,10 @@ a {
     opacity: 0.5;
     transition: .5s ease; */
     background: linear-gradient(45deg,
-    rgba(245,70,66, 0.75),rgba(8,83,156, 0.75));
+            rgba(245, 70, 66, 0.75), rgba(8, 83, 156, 0.75));
 }
 
-.card-img{
+.card-img {
     height: 100%;
 }
 
@@ -377,12 +444,25 @@ a {
     right: 100%;
 }
 
+.graydecorated>span:before {
+    right: 100%;
+}
+
 .decorated>span:after {
     left: 100%;
 }
 
 .otherdecorated>span:after {
     left: 100%;
+}
+
+.graydecorated>span:after {
+    left: 100%;
+}
+
+.graydecorated{
+    overflow: hidden;
+    text-align: center;
 }
 
 .carousel,
@@ -438,12 +518,45 @@ a {
     color: white !important;
 }
 
+#mainimg {
+    width: 100%;
+    max-width: 456px;
+    max-height: 414px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.top-left {
+    position: absolute;
+    top: 6px;
+    left: 24px;
+}
+
+.thumbnail {
+    max-width: 73px;
+    max-height: 71px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.thumbnail.active {
+    opacity: 1;
+}
+
+@media all and (max-width: 1200px) {
+    .scroll-header {
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
+
 @media all and (max-width: 992px) and (min-width:768px) {
-    .navbar-scroll{
+    .navbar-scroll {
         justify-content: space-around !important;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         max-width: 541px;
     }
 }
@@ -451,11 +564,11 @@ a {
 @media all and (min-width: 768px) {
     .azulejo:hover {
         background-color: #262a32;
-        border-bottom: 15px limegreen;
     }
 
     .azulejo .nav-link:hover {
         color: white;
+        border-bottom: 15px limegreen;
     }
 
     .lefty {

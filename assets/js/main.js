@@ -9,6 +9,9 @@ $(document).ready(function () {
             $('.count').val(1);
         }
     });
+    $(document).on('click', '#addcart', function () {
+        $('#cartCount').val(parseInt($('.count').val()));
+    });
 });
 
 $(function () {
@@ -17,6 +20,21 @@ $(function () {
         $('#navbar-close').toggleClass('hidden');
     });
 });
+
+//expanded text on pdp
+
+$(document).ready(function () {
+    $("#readmore").click(function () {
+        $("#expandedtext").toggle()
+        var isVisible = $("#expandedtext").is(":visible");
+        if (isVisible) {
+            $("#readmore").html("Read less");
+        } else {
+            $("#readmore").html("Read more");
+        }
+
+    })
+})
 
 // swiper
 

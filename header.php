@@ -10,17 +10,17 @@
         <div class="collapse navbar-collapse navbar-scroll d-md-flex justify-content-md-between mh-100" id="navbarNavDropdown">
             <ul class="navbar-nav mx-lg-auto">
                 <li class="nav-item azulejo dropdown has-megamenu ms-md-0 ms-2">
-                    <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle d-flex justify-content-between align-items-center py-md-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         SERVICES
                     </a>
-                    <div id="dropdownmenu" class="dropdown-menu megamenu scroll" aria-labelledby="navbarDropdownMenuLink">
+                    <div id="dropdownmenu" class="dropdown-menu megamenu scroll-header" aria-labelledby="navbarDropdownMenuLink">
                         <!-- Section: Links  -->
                         <div class="container text-md-start py-md-5">
                             <!-- Grid row -->
                             <div class="row mt-md-3">
 
                                 <!-- Grid column -->
-                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
+                                <div class="col-md-2 col-lg-2 col-xl-2 mb-2">
                                     <!-- Links -->
                                     <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenuH1()">Product Categories</h6>
                                     <div id="submenuh1" class="none ms-3">
@@ -53,7 +53,7 @@
                                 <!-- Grid column -->
 
                                 <!-- Grid column -->
-                                <div id="submenuh2" class="col-md-2 col-lg-2 col-xl-2 mx-md-auto ms-3 mt-5 mb-2 none">
+                                <div id="submenuh2" class="col-md-2 col-lg-2 col-xl-2 ms-3 mt-5 mb-2 none">
                                     <!-- Links -->
                                     <p>
                                         <a href="#!" class="text-reset">Gadgets</a>
@@ -80,7 +80,7 @@
                                         <a href="#!" class="text-reset">Mobile</a>
                                     </p>
                                 </div>
-                                <div id="submenuh3" class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 ms-3 mb-2 none">
+                                <div id="submenuh3" class="col-md-2 col-lg-2 col-xl-2 mt-5 ms-3 mb-2 none">
                                     <!-- Links -->
                                     <p>
                                         <a href="#!" class="text-reset">Motorcycles</a>
@@ -107,7 +107,7 @@
                                         <a href="#!" class="text-reset">Toys</a>
                                     </p>
                                 </div>
-                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-md-5 mb-2">
+                                <div class="col-md-2 col-lg-2 col-xl-2 mt-md-5 mb-2">
                                     <!-- Links -->
                                     <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenuH2()">Sale</h6>
 
@@ -141,7 +141,7 @@
                                 <!-- Grid column -->
 
                                 <!-- Grid column -->
-                                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mt-5 mb-4 none">
+                                <div class="col-md col-lg col-xl mb-md-0 mt-5 mb-4 none">
                                     <!-- Links -->
 
                                     <img class="imageosf" src="img/nav-girl.png" alt="">
@@ -154,16 +154,16 @@
                     </div>
                 </li>
                 <li class="nav-item azulejo ms-2">
-                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center" aria-current="page" href="#">COMPANY</a>
+                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center py-md-4" aria-current="page" href="#">COMPANY</a>
                 </li>
                 <li class="nav-item azulejo ms-2">
-                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center" href="#">LIBRARY</a>
+                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center py-md-4" href="#">LIBRARY</a>
                 </li>
                 <li class="nav-item azulejo ms-2">
-                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center" href="#">CONTACT US</a>
+                    <a class="nav-link mobdrop d-flex justify-content-between align-items-center py-md-4" href="#">CONTACT US</a>
                 </li>
                 <li class="none nav-item dropdown ms-md-3 ms-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle py-md-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         EN
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -173,7 +173,7 @@
                     </ul>
                 </li>
                 <li class="none nav-item dropdown ms-md-3 ms-2">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle py-md-4" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         $ US
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -198,14 +198,12 @@
                 </a>
             </li>
             <li class="nav-item ms-md-2">
-                <a class="nav-link" href="#"><span class="position-relative"><span class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
-                            0
+                <a class="nav-link" href="#"><span class="position-relative"><span id="favouriteCount" class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
                             <span class="visually-hidden">unread messages</span>
                         </span><img src="img/likedIcon.png" alt=""></span></a>
             </li>
             <li class="nav-item ms-md-2">
-                <a class="nav-link" href="#"><span class="position-relative"><img src="img/bagIcon.png" alt=""><span class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
-                            0
+                <a class="nav-link" href="#"><span class="position-relative"><img src="img/bagIcon.png" alt=""><span id="cartCount" class="position-absolute start-100 translate-middle badge rounded-pill badge-green">
                             <span class="visually-hidden">unread messages</span>
                         </span></span></a>
             </li>
@@ -246,3 +244,17 @@
 </div>
 
 <!-- cookie   -->
+
+
+
+<div class="cookie-container">
+        <p>
+            We use cookies in this website to give you the best experience on our
+            site and show you relevant ads. To find out more, read our
+            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+        </p>
+
+        <button class="cookie-btn">
+            Okay
+        </button>
+    </div>

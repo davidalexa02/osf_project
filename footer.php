@@ -126,7 +126,7 @@
                 <div class="col-md col-lg col-xl-2 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
 
-                    <div class="d-flex justify-content-md-end justify-content-center">
+                    <div class="d-flex justify-content-md-end justify-content-center text-muted">
                         <a href="" class="mx-md-auto mx-3 text-reset">
                             <i class="fab fa-facebook-f"></i>
                         </a>

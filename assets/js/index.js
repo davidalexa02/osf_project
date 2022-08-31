@@ -1,4 +1,44 @@
 
+let favouritecount = 0;
+document.getElementById("favouriteCount").innerHTML = favouritecount;
+
+let cartcount = 0;
+document.getElementById("cartCount").innerHTML = cartcount;
+
+let zoombut = document.getElementById("zoom-in");
+let zoomedimg = document.getElementById("zoomedimg");
+let zoomed = document.getElementById("zoomed");
+
+//Thumbnails
+
+let thumbnails = document.getElementsByClassName("thumbnail");
+
+let active = document.getElementsByClassName("active");
+
+for (var i = 0; i < thumbnails.length; i++) {
+
+    thumbnails[i].addEventListener('click', function () {
+        //the next if toggles the "active" class
+        if (active.length > 0) {
+            active[0].classList.remove("active")
+        }
+
+        this.classList.add("active")
+        document.getElementById("mainimg").src = this.src
+    })
+}
+
+//Wishlist and cart number of products added
+function favouriteCount() {
+    favouritecount++;
+    document.getElementById("favouriteCount").innerHTML = favouritecount;
+}
+function cartCount() {
+    cartcount++;
+    document.getElementById("cartCount").innerHTML = cartcount;
+}
+
+
 
 // scroll to top button
 //Get the button:
@@ -6,16 +46,14 @@ var scrollToTopBtn = document.getElementById("myBtn")
 
 var rootElement = document.documentElement
 
-function scrollToTop {
+function scrollToTop() {
     // scroll to top logic
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     })
-    
-}
 
-scrollToTopBtn.addEventListener("click", scrollToTop)
+}
 
 $(document).on('click', '#dropdownmenu', function (e) {
     e.stopPropagation();
@@ -161,6 +199,9 @@ setTimeout(() => {
 }, 1000);
 
 
+//scroll to top
+scrollToTopBtn.addEventListener("click", scrollToTop)
+
 
 const mobileCar = document.querySelector("#mobileCar");
 
@@ -176,3 +217,18 @@ mobileCarousel(resoluc) // Call listener function at run time
 resoluc.addListener(mobileCarousel) // Attach listener function on state changes
 
 
+//zoom in 
+
+
+zoombut.addEventListener('click', function () {
+    //the next if toggles the "active" class
+
+    // this.classList.add("active")
+    zoomedimg.src = document.getElementById("mainimg").src
+    if (zoomed.style.display === "none") {
+        zoomed.style.display = "block";
+    }
+    else {
+        zoomed.style.display = "none";
+    }
+})
