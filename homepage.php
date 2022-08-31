@@ -83,7 +83,7 @@
 
         <div class="container mx-auto p-0">
             <div class="row my-4">
-                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-overlay">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-overlay">
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">

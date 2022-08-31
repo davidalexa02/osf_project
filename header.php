@@ -6,7 +6,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </div>
         </button>
-        <a class="navbar-brand mx-auto text-md-start text-center overflow-hidden" href="#"><img src="img/osfLogo.png" alt=""></a>
+        <a class="navbar-brand mx-auto text-md-start text-center overflow-hidden" href="homepage.php"><img src="img/osfLogo.png" alt=""></a>
         <div class="collapse navbar-collapse navbar-scroll d-md-flex justify-content-md-between mh-100" id="navbarNavDropdown">
             <ul class="navbar-nav mx-lg-auto">
                 <li class="nav-item azulejo dropdown has-megamenu ms-md-0 ms-2">

@@ -37,7 +37,7 @@
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                         Aenean massa.
                     </p>
-                    <a href="homepage.html">Go back to Homepage</a>
+                    <a href="homepage.php">Go back to Homepage</a>
                     <h4 class="mt-5 pb-2 fw-bold">Search our site</h4>
                     <div class="input-group">
                         <input class="form-control border-end-0 border rounded-pill" type="search" placeholder="SEARCH" id="example-search-input">
