@@ -82,8 +82,8 @@
         <h4 class="otherdecorated"><span>Popular Items</span></h4>
 
         <div class="container mx-auto p-0">
-            <div class="row my-4 none">
-                <div class="col-md-3">
+            <div class="row my-4">
+                <div class="col-md-3 none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-overlay">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -131,18 +131,72 @@
                 </div>
             </div>
 
+
+
+            <div class="row my-4">
+                <div class="col-md-3 none">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 none">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 none">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch none">
+                    <div class="card text-left text-white w-100 none">
+                        <img class="card-img" src="img/item8.png" alt="Card image cap">
+                        <div class="card-img-overlay card-overlay-static">
+                            <div class="lefted container ms-lg-3 ms-1 mb-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="card-text">My dragons are misbehaving again. Unbelievable!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="card-text" src="img/thinking.png" alt="">
+                                    </div>
+                                    <div class="col-7">
+                                        <sub class="card-text">5H AGO</sub>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- mobile carousel popular items -->
             <div class="row my-4 notyet">
 
                 <!-- carousel part -->
                 <div class="col">
-                    <div id="carouselExampleIndicators" class="carousel slide position-relative car-mobile" data-bs-ride="true">
+                    <div id="carousel" class="carousel slide position-relative car-mobile" data-bs-ride="true">
                         <div class="carousel-indicators blackindicators align-items-center">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 5"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -153,9 +207,26 @@
                                     <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-start">View More</button>
                                 </div> -->
                                 <div class="row">
-                                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                                    <!-- <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
                                         <div class="card text-center">
                                             <img class="card-img-top" src="img/nav-girl.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="col-md-3 d-md-flex align-items-md-stretch py-md-0 py-4">
+                                        <div class="card text-center">
+                                            <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                                            <div class="card-overlay">
+                                                <button type="button" class="btn btn-primary btn-lg btn-floating">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary btn-lg btn-floating">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </button>
+                                            </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -172,7 +243,7 @@
                                     <button type="button" class="btn btn-outline-light text-uppercase px-4">View More</button>
                                 </div> -->
                                 <div class="row">
-                                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                                    <!-- <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
                                         <div class="card text-center">
                                             <img class="card-img-top" src="img/posts-2.jpg" alt="Card image cap">
                                             <div class="card-body">
@@ -180,6 +251,17 @@
                                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                             </div>
                                         </div>
+                                    </div> -->
+                                    <div class="col-md-3 d-md-flex align-items-md-stretch py-md-0 py-4">
+                                        <div class="card text-center">
+                                            <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <a href="#" class="card-link">Card link</a>
+                                                <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -191,9 +273,18 @@
                                     <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-end">View More</button>
                                 </div> -->
                                 <div class="row">
-                                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                                    <!-- <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
                                         <div class="card text-center">
                                             <img class="card-img-top" src="img/item4.png" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="col-md-3 d-md-flex align-items-md-stretch py-md-0 py-4">
+                                        <div class="card text-center">
+                                            <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -210,9 +301,18 @@
                                     <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-end">View More</button>
                                 </div> -->
                                 <div class="row">
-                                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                                    <!-- <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
                                         <div class="card text-center">
                                             <img class="card-img-top" src="img/posts-3.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="col-md-3 d-md-flex align-items-md-stretch py-md-0 py-4">
+                                        <div class="card text-center">
+                                            <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                                             <div class="card-body">
                                                 <h5 class="card-title">Card title</h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -238,59 +338,8 @@
                     </div> -->
             </div>
 
-            <div class="row my-4 none">
-                <div class="col-md-3">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 d-flex align-items-stretch">
-                    <div class="card text-left text-white w-100">
-                        <img class="card-img" src="img/item8.png" alt="Card image cap">
-                        <div class="card-img-overlay card-overlay-static">
-                            <div class="lefted container ms-lg-3 ms-1 mb-3">
-                                <div class="row">
-                                    <div class="col">
-                                        <p class="card-text">My dragons are misbehaving again. Unbelievable!</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
-                                        <img class="card-text" src="img/thinking.png" alt="">
-                                    </div>
-                                    <div class="col-7">
-                                        <sub class="card-text">5H AGO</sub>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row my-5">
-                <button type="button" class="btn btn-green btn-sm mx-auto">LOAD MORE</button>
+                <button type="button" class="btn btn-green btn-sm mx-auto none">LOAD MORE</button>
             </div>
         </div>
     </div>

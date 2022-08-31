@@ -170,8 +170,8 @@
             <div class="container mx-auto p-0">
 
                 <!-- desktop popular items section -->
-                <div class="row my-4 none">
-                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                <div class="row my-4">
+                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4 none">
                         <div class="card text-center">
                             <img class="card-img-top" src="img/nav-girl.png" alt="Card image cap">
                             <div class="card-body">
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4 none">
                         <div class="card text-center">
                             <img class="card-img-top" src="img/posts-2.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -189,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4 none">
                         <div class="card text-center">
                             <img class="card-img-top" src="img/item4.png" alt="Card image cap">
                             <div class="card-body">
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4">
+                    <div class="col-md d-md-flex align-items-md-stretch py-md-0 py-4 none">
                         <div class="card text-center">
                             <img class="card-img-top" src="img/posts-3.jpg" alt="Card image cap">
                             <div class="card-body">

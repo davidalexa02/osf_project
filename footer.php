@@ -1,3 +1,5 @@
+<!-- cookie   -->
+
 <footer class="text-center text-lg-start bg-white text-muted">
 
     <!-- Section: Links  -->
@@ -148,3 +150,28 @@
     </section>
     <!-- Section: Links  -->
 </footer>
+
+
+
+
+
+<div id="cookie-container" class="container py-3" aria-hidden="true">
+    <div class="row">
+        <div class="col-md-9">
+            <h6 class="text-green">This website uses cookies</h6>
+            <p>
+                We use cookies in this website to give you the best experience on our
+                site and show you relevant ads. To find out more, read our
+                <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
+            </p>
+        </div>
+        <div class="col-md-3 d-flex flex-column">
+            <div id="closecookie" class="d-flex justify-content-end py-3">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <button id="cookie-btn" class="text-uppercase">
+                ACCEPT
+            </button>
+        </div>
+    </div>
+</div>

@@ -189,7 +189,7 @@
             </ul>
         </div>
 
-        <ul class="navbar-nav fixed-md-bottom">
+        <ul id="botbar" class="navbar-nav fixed-md-bottom">
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#"><img src="img/searchIcon.png" alt=""></a>
             </li>
@@ -242,19 +242,3 @@
         </div>
     </div>
 </div>
-
-<!-- cookie   -->
-
-
-
-<div class="cookie-container">
-        <p>
-            We use cookies in this website to give you the best experience on our
-            site and show you relevant ads. To find out more, read our
-            <a href="#">privacy policy</a> and <a href="#">cookie policy</a>.
-        </p>
-
-        <button class="cookie-btn">
-            Okay
-        </button>
-    </div>

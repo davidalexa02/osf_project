@@ -184,37 +184,9 @@ este2.addListener(myFunction2) // Attach listener function on state changes
 
 
 
-const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
-
-cookieButton.addEventListener("click", () => {
-    cookieContainer.classList.remove("active");
-    localStorage.setItem("cookieBannerDisplayed", "true");
-});
-
-setTimeout(() => {
-    if (!localStorage.getItem("cookieBannerDisplayed")) {
-        cookieContainer.classList.add("active");
-    }
-}, 1000);
-
 
 //scroll to top
 scrollToTopBtn.addEventListener("click", scrollToTop)
-
-
-const mobileCar = document.querySelector("#mobileCar");
-
-function mobileCarousel(resoluc) {
-    if (resoluc.matches) { // If media query matches
-        mobileCar.classList.add("carousel");
-    } else {
-        mobileCar.classList.remove("carousel");
-    }
-}
-var resoluc = window.matchMedia("(max-width: 767px)")
-mobileCarousel(resoluc) // Call listener function at run time
-resoluc.addListener(mobileCarousel) // Attach listener function on state changes
 
 
 //zoom in 
