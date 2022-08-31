@@ -403,6 +403,10 @@ a {
     object-fit: cover;
 }
 
+.btn.rounded{
+    border-radius: 150px !important;
+}
+
 .graydecorated>span:before,
 .graydecorated>span:after {
     content: '';

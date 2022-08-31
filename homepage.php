@@ -83,16 +83,18 @@
 
         <div class="container mx-auto p-0">
             <div class="row my-4">
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-overlay">
-                            <button type="button" class="btn btn-primary btn-lg btn-floating">
-                                <i class="fab fa-facebook-f"></i>
-                            </button>
-                            <button type="button" class="btn btn-primary btn-lg btn-floating">
-                                <i class="fab fa-facebook-f"></i>
-                            </button>
+                            <div class="centered">
+                                <button type="button" class="btn rounded btn-light btn-lg btn-floating" onclick="cartCount()">
+                                    <i class="fa-solid fa-plus text-success"></i>
+                                </button>
+                                <button type="button" class="btn rounded btn-light btn-lg btn-floating" onclick="favouriteCount()">
+                                    <i class="fa-solid fa-heart text-danger"></i>
+                                </button>
+                            </div>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -100,27 +102,36 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <span class="card-link text-muted">$659.55</span>
+                            <a class="card-link text-uppercase text-dark" onclick="cartCount()">Buy now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-overlay">
+                            <div class="centered">
+                                <button type="button" class="btn rounded btn-light btn-lg btn-floating" onclick="cartCount()">
+                                    <i class="fa-solid fa-plus text-success"></i>
+                                </button>
+                                <button type="button" class="btn rounded btn-light btn-lg btn-floating" onclick="favouriteCount()">
+                                    <i class="fa-solid fa-heart text-danger"></i>
+                                </button>
+                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -134,7 +145,7 @@
 
 
             <div class="row my-4">
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -143,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -152,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch none">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
