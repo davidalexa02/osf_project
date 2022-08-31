@@ -332,7 +332,7 @@ a {
 }
 
 .desktopBox {
-    display: none;
+    display: none !important;
 }
 
 .arrows {
@@ -715,7 +715,7 @@ a {
     }
 
     .mobileBox {
-        display: none;
+        display: none !important;
     }
 
     .navbar-nav.fixed-md-bottom {

@@ -34,7 +34,7 @@
                                 <div class="lefty mx-auto text-md-start">
                                     <h1 class="text-white mb-md-5 mb-4 text-start">Control and manage any device with cloud solutions</h1>
                                     <p class="my-lg-3 text-white text-start">Improve business performance and the user experience with the right mix of IoT technology and processes</p>
-                                    <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-start">View More</button>
+                                    <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-start" onclick="location.href = 'services.php';">View More</button>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -42,7 +42,7 @@
                                 <div class="centy text-center">
                                     <h1 class="text-white mb-md-5 mb-4">Control and manage any device with cloud solutions</h1>
                                     <p class="my-lg-3 text-white">Improve business performance and the user experience with the right mix of IoT technology and processes</p>
-                                    <button type="button" class="btn btn-outline-light text-uppercase px-4">View More</button>
+                                    <button type="button" class="btn btn-outline-light text-uppercase px-4" onclick="location.href = 'services.php';">View More</button>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -50,7 +50,7 @@
                                 <div class="righty text-md-end">
                                     <h1 class="text-white mb-md-5 mb-4 text-end">Control and manage any device with cloud solutions</h1>
                                     <p class="my-lg-3 text-white text-end">Improve business performance and the user experience with the right mix of IoT technology and processes</p>
-                                    <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-end">View More</button>
+                                    <button type="button" class="btn btn-outline-light text-uppercase px-4 text-md-end" onclick="location.href = 'services.php';">View More</button>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
 
         <div class="container mx-auto p-0">
             <div class="row my-4">
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-overlay">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-overlay">
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -145,7 +145,7 @@
 
 
             <div class="row my-4">
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox mobileBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox mobileBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-md-flex align-items-md-stretch none">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox mobileBox">
                     <div class="card text-center">
                         <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -172,7 +172,60 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-flex align-items-stretch none">
+                <div class="col-md-3 d-flex align-items-stretch blogBox mobileBox">
+                    <div class="card text-left text-white w-100 none">
+                        <img class="card-img" src="img/item8.png" alt="Card image cap">
+                        <div class="card-img-overlay card-overlay-static">
+                            <div class="lefted container ms-lg-3 ms-1 mb-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="card-text">My dragons are misbehaving again. Unbelievable!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="card-text" src="img/thinking.png" alt="">
+                                    </div>
+                                    <div class="col-7">
+                                        <sub class="card-text">5H AGO</sub>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- more cards -->
+            <div class="row my-4">
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox moreBox desktopBox mobileBox">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox moreBox desktopBox mobileBox">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-md-flex align-items-md-stretch blogBox moreBox desktopBox mobileBox">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch blogBox moreBox desktopBox mobileBox">
                     <div class="card text-left text-white w-100 none">
                         <img class="card-img" src="img/item8.png" alt="Card image cap">
                         <div class="card-img-overlay card-overlay-static">
@@ -350,7 +403,7 @@
             </div>
 
             <div class="row my-5">
-                <button type="button" class="btn btn-green btn-sm mx-auto none">LOAD MORE</button>
+                <button id="loadMore2" type="button" class="btn btn-outline-green btn-sm mx-auto none">LOAD MORE <i class="fa-solid fa-arrow-rotate-right"></i></button>
             </div>
         </div>
     </div>

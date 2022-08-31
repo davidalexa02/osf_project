@@ -85,6 +85,23 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    // $(".moreBox").slice(0, 3).show();
+    if ($(".blogBox:hidden").length != 0) {
+        $("#loadMore2").show();
+    }
+    $("#loadMore2").on('click', function (e) {
+        e.preventDefault();
+        $(".moreBox:hidden").slice(0, 4).slideDown();
+        if ($(".moreBox:hidden").length == 0) {
+            $("#loadMore2").fadeOut('slow');
+        }
+    });
+});
+
+
+
+
 // $('#colors input').on('change', function () {
 //     alert($('input[name=radioName]:checked', '#colors').val());
 // });
