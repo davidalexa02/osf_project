@@ -129,17 +129,17 @@
                     <!-- Links -->
 
                     <div class="d-flex justify-content-md-end justify-content-center text-muted">
-                        <a href="" class="mx-md-auto mx-3 text-reset">
+                        <a href="https://www.facebook.com/" class="mx-md-auto mx-3 text-reset">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="" class="mx-md-auto mx-3 text-reset">
+                        <a href="https://www.twitter.com/" class="mx-md-auto mx-3 text-reset">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="" class="mx-md-auto mx-3 text-reset">
+                        <a href="https://www.google.com/" class="mx-md-auto mx-3 text-reset">
                             <i class="fab fa-google"></i>
                         </a>
-                        <a href="" class="mx-md-auto mx-3 text-reset">
-                            <i class="fab fa-instagram"></i>
+                        <a href="https://www.pinterest.com/" class="mx-md-auto mx-3 text-reset">
+                            <i class="fab fa-pinterest"></i>
                         </a>
                     </div>
                 </div>

@@ -68,7 +68,7 @@
                         <h5>Follow us on Facebook</h5>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit</p>
                         <div class="align-self-end">
-                            <button type="button" class="btn btn-primary"><i class="fab fa-facebook-f"></i>FOLLOW</button>
+                            <button type="button" class="btn btn-primary" onclick="location.href = 'https://www.facebook.com/';"><i class="fab fa-facebook-f"></i>FOLLOW</button>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-md navbar-light bg-white py-0">
+<nav class="navbar fixed-top navbar-expand-md navbar-light bg-white py-0 encabezado">
     <div class="container d-flex justify-content-md-around px-0">
         <button id="ChangeToggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span id="navbar-hamburger" class="navbar-toggler-icon"></span>
@@ -25,28 +25,28 @@
                                     <h6 class="text-uppercase fw-bold mb-md-4 mobdrop" onclick="showMenuH1()">Product Categories</h6>
                                     <div id="submenuh1" class="none ms-3">
                                         <p>
-                                            <a href="#!" class="text-reset">Accesories</a>
+                                            <a href="error.php" class="text-reset">Accesories</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Alcohol</a>
+                                            <a href="error.php" class="text-reset">Alcohol</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Art</a>
+                                            <a href="error.php" class="text-reset">Art</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Books</a>
+                                            <a href="error.php" class="text-reset">Books</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Drink</a>
+                                            <a href="error.php" class="text-reset">Drink</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Electronics</a>
+                                            <a href="error.php" class="text-reset">Electronics</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Flowers & Plants</a>
+                                            <a href="error.php" class="text-reset">Flowers & Plants</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Food</a>
+                                            <a href="error.php" class="text-reset">Food</a>
                                         </p>
                                     </div>
                                 </div>
@@ -56,55 +56,55 @@
                                 <div id="submenuh2" class="col-md-2 col-lg-2 col-xl-2 ms-3 mt-5 mb-2 none">
                                     <!-- Links -->
                                     <p>
-                                        <a href="#!" class="text-reset">Gadgets</a>
+                                        <a href="error.php" class="text-reset">Gadgets</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Garden</a>
+                                        <a href="error.php" class="text-reset">Garden</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Grocery</a>
+                                        <a href="error.php" class="text-reset">Grocery</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Home</a>
+                                        <a href="error.php" class="text-reset">Home</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Jewelry</a>
+                                        <a href="error.php" class="text-reset">Jewelry</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Kids & Baby</a>
+                                        <a href="error.php" class="text-reset">Kids & Baby</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Men's Fashion</a>
+                                        <a href="error.php" class="text-reset">Men's Fashion</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Mobile</a>
+                                        <a href="error.php" class="text-reset">Mobile</a>
                                     </p>
                                 </div>
                                 <div id="submenuh3" class="col-md-2 col-lg-2 col-xl-2 mt-5 ms-3 mb-2 none">
                                     <!-- Links -->
                                     <p>
-                                        <a href="#!" class="text-reset">Motorcycles</a>
+                                        <a href="error.php" class="text-reset">Motorcycles</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Movies</a>
+                                        <a href="error.php" class="text-reset">Movies</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Music</a>
+                                        <a href="error.php" class="text-reset">Music</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Office</a>
+                                        <a href="error.php" class="text-reset">Office</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Pots</a>
+                                        <a href="error.php" class="text-reset">Pots</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Romantic</a>
+                                        <a href="error.php" class="text-reset">Romantic</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Sport</a>
+                                        <a href="error.php" class="text-reset">Sport</a>
                                     </p>
                                     <p>
-                                        <a href="#!" class="text-reset">Toys</a>
+                                        <a href="error.php" class="text-reset">Toys</a>
                                     </p>
                                 </div>
                                 <div class="col-md-2 col-lg-2 col-xl-2 mt-md-5 mb-2">
@@ -113,28 +113,28 @@
 
                                     <div id="submenuh4" class="none ms-3">
                                         <p>
-                                            <a href="#!" class="text-reset">Accesories</a>
+                                            <a href="error.php" class="text-reset">Accesories</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Alcohol</a>
+                                            <a href="error.php" class="text-reset">Alcohol</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Art</a>
+                                            <a href="error.php" class="text-reset">Art</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Books</a>
+                                            <a href="error.php" class="text-reset">Books</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Drink</a>
+                                            <a href="error.php" class="text-reset">Drink</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Electronics</a>
+                                            <a href="error.php" class="text-reset">Electronics</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Flowers & Plants</a>
+                                            <a href="error.php" class="text-reset">Flowers & Plants</a>
                                         </p>
                                         <p>
-                                            <a href="#!" class="text-reset">Food</a>
+                                            <a href="error.php" class="text-reset">Food</a>
                                         </p>
                                     </div>
                                 </div>
@@ -167,9 +167,9 @@
                         EN
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">RO</a></li>
+                        <li><a class="dropdown-item" href="#">PT</a></li>
+                        <li><a class="dropdown-item" href="#">IN</a></li>
                     </ul>
                 </li>
                 <li class="none nav-item dropdown ms-md-3 ms-2">
@@ -177,9 +177,9 @@
                         $ US
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">EUR</a></li>
+                        <li><a class="dropdown-item" href="#">RON</a></li>
+                        <li><a class="dropdown-item" href="#">RUP</a></li>
                     </ul>
                 </li>
 

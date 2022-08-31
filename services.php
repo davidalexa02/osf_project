@@ -93,35 +93,35 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="img/item3.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Kristina Dam Oak Table With White Marble Top</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/item1.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">EAMES x Cast + Crew - Custom Powder Coated</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-md-0 mt-4 blogBox">
+                <div class="col-md-3 mt-md-0 mt-4 blogBox d-md-flex align-items-md-stretch">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/posts-1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Activate Facial Mask and Charcoal Soap </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-md-0 mt-4 blogBox">
+                <div class="col-md-3 mt-md-0 mt-4 blogBox d-md-flex align-items-md-stretch">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/posts-4.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Vitra Cork Stool B, Cork - Design Within Reach</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
@@ -129,37 +129,37 @@
             <div class="row my-4">
                 <div class="col-md-3 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/item6.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Hay - About A Lounge  Chair AAL 93</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/item5.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">TORY DESK CALENDAR</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">CH445 Wing Chair on  SUITE NY</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">CH445 Wing Chair on  SUITE NY</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
@@ -167,75 +167,75 @@
             <div class="row my-4">
                 <div class="col-md-3 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Kristina Dam Oak Table With White Marble Top</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">MONOQI | Ø55 Crossit  Table - Wht/Grn</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/item6.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Vitra Cork Stool B, Cork - Design Within Reach</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Activate Facial Mask and Charcoal Soap</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row my-4">
-                <div class="col-md-3 blogBox moreBox mobileBox">
+                <div class="col-md-3 blogBox moreBox mobileBox d-md-flex align-items-md-stretch">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">Hay - About A Lounge  Chair AAL 93</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
+                <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox d-md-flex align-items-md-stretch">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/item7.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">TORY DESK CALENDAR</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
+                <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox d-md-flex align-items-md-stretch">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top" src="img/nav-girl.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">EAMES x Cast + Crew - Custom Powder Coated</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox">
+                <div class="col-md-3 mt-md-0 mt-4 blogBox moreBox mobileBox d-md-flex align-items-md-stretch">
                     <div class="card text-center">
-                        <img class="card-img-top" src="img/item3.png" alt="Card image cap">
+                        <img class="card-img-top notfound" src="img/notfound.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h6 class="card-title">CH445 Wing Chair on  SUITE NY</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">$ 799.55</h6>
                         </div>
                     </div>
                 </div>

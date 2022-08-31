@@ -19,8 +19,8 @@
         <nav class="mx-auto" aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Library</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Data</li>
+                <li class="breadcrumb-item"><a href="#">OSF Theme</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Ruffle Front V-Neck Cardigan</li>
             </ol>
         </nav>
 
@@ -103,7 +103,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row tabers">
                 <div class="col p-0">
                     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -163,7 +163,7 @@
                 </div>
             </div>
         </div>
-        <div class="container mw-100 px-md-5 pt-5">
+        <div class="container mw-100 px-md-5 pt-5 pop">
 
             <h4 class="graydecorated text-center text-uppercase"><span>Popular Items</span></h4>
 

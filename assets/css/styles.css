@@ -332,7 +332,7 @@ a {
 }
 
 .desktopBox {
-    display: none !important;
+    display: none;
 }
 
 .arrows {
@@ -403,8 +403,12 @@ a {
     object-fit: cover;
 }
 
-.btn.rounded{
+.btn.rounded {
     border-radius: 150px !important;
+}
+
+.notfound {
+    background-color: #262A32;
 }
 
 .graydecorated>span:before,
@@ -715,7 +719,7 @@ a {
     }
 
     .mobileBox {
-        display: none !important;
+        display: none;
     }
 
     .navbar-nav.fixed-md-bottom {
@@ -757,5 +761,13 @@ a {
 
     .navbar-brand img {
         max-width: 100%;
+    }
+}
+
+
+/* bonus task print page */
+@media print {
+    .encabezado, footer, .tabers, .pop, .service, #cookie-container {
+        display: none;
     }
 }
